@@ -1,0 +1,122 @@
+
+.heading {
+	
+	  position:absolute;
+	  height:15%;
+	  width:100%;
+	  top:0%;
+	  left:0%;
+	  font-family:Verdana,Arial;
+	  font-size:30px;
+	  font-weight:30px;
+	  background-color:green;
+	  color:white;
+	  text-align:center;
+	  padding:2%;
+      
+}
+
+	
+
+	#nav {
+      position:absolute;
+	  width:100%;
+	  top:15.5%;
+	  left:0%;
+	  font-family:Verdana,Arial;
+	  font-size:20px;
+	  font-weight:20px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	 border-right: 1px solid #bbb;
+    
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+#formdiv {
+	
+	position:absolute;
+	top:30%;
+	left:25%;
+	height:30%;
+	width:50%;
+    background-color:#2f2f2f;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:40px;
+	border-radius:5px;
+	color:white;
+}
+
+.requiredmsg {
+	
+	color:red;
+	
+}
+
+.inputs {
+	
+	padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#uname {
+	position:relative	;
+	top:30%;
+    width:89.5%;
+	left:.5%;
+	right:10%;
+	}
+#psw{
+    	position:relative;
+	    top:60%;
+	    width:89.5%;
+	    left:.5%;
+	    right:10%;
+	
+	
+}
+
+#submit {
+	position:relative;
+	width:100%;
+	left:-.5%;
+	//right:-5%;
+     padding:8px;	
+	 background-color:green ;
+	 border-radius:5px;
+	 color:white;
+	 font-size:13px;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

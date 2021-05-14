@@ -1,0 +1,21 @@
+table{
+position:relative;
+border:10px;
+width:60%;
+left:10%;
+
+
+}
+
+tr {
+	background-color:#f2f2f2;
+	
+}
+
+td {
+	
+	
+	padding:4px;	
+	text-align:center;
+	font-family:segoe-ui,verdana;
+}
